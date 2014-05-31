@@ -1,3 +1,5 @@
+require 'abbreviated_parser'
+
 describe AbbreviatedParser do
 	let(:baked_beans) { "~16200~^~CAMPBELL'S BRN SUGAR&BACON FLAV BKD BNS~^69.40^123^3.85^1.92^1.75^23.08^6.2^10.00^31^1.11^^^^362^^^^^0.0^^^^^^^^^^^^0^^^^^^^^^^^^0.385^^^4^130^~.5 cup~^130^~1 serving~^0" }
 
