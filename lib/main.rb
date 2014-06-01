@@ -99,15 +99,6 @@ def generate_weight_hash
 	puts "#{weights.count} Food items with known weight measurements"
 	puts "Completed weight hash generation"
 
-=begin
-	weights.each do |key, value| 
-		weights[key].each do |subkey, subvalue]
-			puts "Key: #{key}"
-			puts ">> GRAMS: #{weights[key][subkey].fetch :grams} SERVING_SIZE: #{weights[key][subkey].fetch :serving_size}" 
-		end
-	end
-=end
-
 	return weights # lets make it explicit so that we know
 end
 
